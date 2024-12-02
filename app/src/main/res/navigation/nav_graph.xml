@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/agreementFragment"
+        android:name="net.matcix.totp.ui.AgreementFragment"
+        android:label="AgreementFragment">
+        <action
+            android:id="@+id/action_agreement_to_list"
+            app:destination="@id/listFragment"
+            app:popUpTo="@id/agreementFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="net.matcix.totp.ui.ListFragment"
+        android:label="列表" />
+
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="net.matcix.totp.ui.AddFragment"
+        android:label="添加" />
+
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="net.matcix.totp.ui.MoreFragment"
+        android:label="更多" />
+</navigation> 

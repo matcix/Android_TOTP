@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listFragment"
+        android:icon="@drawable/ic_list_24"
+        android:title="列表" />
+    <item
+        android:id="@+id/addFragment"
+        android:icon="@drawable/ic_add_24"
+        android:title="添加" />
+    <item
+        android:id="@+id/moreFragment"
+        android:icon="@drawable/ic_more_24"
+        android:title="更多" />
+</menu> 

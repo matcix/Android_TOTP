@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TOTP</string>
+    <string name="app_version">版本 1.0</string>
+    <string name="about">关于应用</string>
+    <string name="app_author">By Koya</string>
+    <string name="app_description">TOTP 是一个开源的 TOTP 应用，它可以帮助你导入 TOTP 密钥并使用它来进行双因子身份验证。</string>
+    <string name="miscellaneous">TOTP是我写的第一个app，希望你可以喜欢它！</string>
+</resources>
